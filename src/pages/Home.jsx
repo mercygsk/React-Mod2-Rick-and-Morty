@@ -32,7 +32,7 @@ function Home() {
     
         // useEffect to run getCoin when component mounts
         useEffect(() => {
-            getRick(url);
+            getRick();
         }, []);
     
         // loaded function shows up when the data has been fetched
