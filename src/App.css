@@ -4,8 +4,9 @@
   justify-content: space-between;
   background-color: black;
   color: white;
-  padding: 15px;
+  padding: 30px;
   font-size: 2em;
+ 
 }
 
 .nav a {
@@ -15,5 +16,24 @@
 
 .pic{
   background-color: aqua;
+
+}
+
+.App{
+  background-color: antiquewhite;
   
 }
+
+.box{
+background-color: bisque;
+display: grid;
+grid-template-columns: auto auto auto auto;
+  }
+
+  .box2{
+  background-color: antiquewhite;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px ;
+  }

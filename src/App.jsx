@@ -9,15 +9,23 @@ import Home from './pages/Home';
 import Episode from './pages/Episode';
 import Characters from './pages/Characters';
 import Nav from './components/Nav';
+import rick from './mygif/rick.gif';
+import R from './mygif/R.png';
+
+
+
+
+
+
 
 function App() {
   
 
   return (
     <>
+      <Nav />
+      <div className='pic'> <img src = {rick} alt ={"rick"} /> <img src={R} /></div>
     <div className='App'>
-     <Nav />
-     <div className='pic'><h1>Hello</h1></div>
     <Routes>
     <Route path='/' element={<Home/>} />
         <Route path='/Characters' element={<Characters/>} />

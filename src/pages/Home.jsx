@@ -48,12 +48,12 @@ function Home() {
     <img src={rick.results[0].image} alt={rick.results[0].name} /> 
     </div> */}
 
-    <div> {rick.results.map(m => {return ( 
+    <div className="box"> {rick.results.map(m => {return ( 
     <>
-    <h1>{m.id}</h1>
+    <div className="box2"><h1>{m.id}</h1>
     <h3>{m.name}</h3>
     <img src = {m.image} alt={m.name}/>
-    <h4>{m.status}</h4>
+    <h4>{m.status}</h4></div>
      </>)})} 
      </div>
 
