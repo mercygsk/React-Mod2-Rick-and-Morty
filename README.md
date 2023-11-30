@@ -25,7 +25,7 @@ Links -https://www.npmjs.com/package/react-multi-carousel#react-multi-carousel--
 
 ![Alt text](<src/mygif/RICK AND MORTY WIREFRAME.png>)
 
-
+Deployed Link: https://mercy-rickmorty.netlify.app/
 
 
 
