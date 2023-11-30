@@ -14,7 +14,7 @@ import Nav from './components/Nav';
 import rick from './mygif/rick.gif';
 import R from './mygif/R.png';
 import rick3 from './mygif/rick3.gif'
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 
 function App() {
