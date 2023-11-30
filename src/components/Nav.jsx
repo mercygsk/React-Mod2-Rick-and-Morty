@@ -6,14 +6,16 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className="nav">
+    <header className="H">
+    <div className="nav" >
     <Link to="/">
         <div>Rick & Morty </div>
     </Link>
     <Link to="/Characters">
-        <div>Episodes</div>
+        <div>Characters</div>
     </Link>
-        </div>
+   </div>
+   </header>
   )
 }
 
