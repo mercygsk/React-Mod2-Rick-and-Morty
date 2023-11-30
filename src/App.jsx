@@ -14,6 +14,7 @@ import Nav from './components/Nav';
 import rick from './mygif/rick.gif';
 import R from './mygif/R.png';
 import rick3 from './mygif/rick3.gif'
+import Footer from './components/footer';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
         <Route path='/infoCharacters/:id' element={<Characters/>} />
     </Routes>
     </div>
-    
+    <div>  <Footer/> </div>
     </>
   )
 }
