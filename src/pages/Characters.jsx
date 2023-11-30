@@ -25,12 +25,12 @@ const loaded = () => {
   return (
   <> <div className="p">
     <div> {morty.results.map(M => {return (
-     <div className="page2"><h1>ID:{M.id};  </h1>
-     <h1>Name:{M.name}; </h1>
-     <h2>Status:{M.status}; </h2>
-     <h2>Species:{M.species};</h2>
-     <h3>Gender:{M.gender};</h3>
-     <h3>Origin : {M.origin.name}; </h3>
+     <div className="page2"><h1>ID:{M.id}  </h1>
+     <h1>Name:{M.name} </h1>
+     <h2>Status:{M.status} </h2>
+     <h2>Species:{M.species}</h2>
+     <h3>Gender:{M.gender}</h3>
+     <h3>Origin : {M.origin.name} </h3>
    
      <h4>Location :{M.location.name}</h4>
      <h4><img src = {M.image} alt={M.name}/></h4></div>
